@@ -13,5 +13,13 @@ This demonstration will be going over how to analyze ICMP echo request and echo 
 <strong>Opening Wireshark:</strong>
 
 When Wireshark is opened, the first thing the user is greeted with is a screen with a list of available interfaces to capture. This example will be capturing network traffic from "eth0" (ethernet interface) which is basically the network connection. 
-![etho](https://github.com/victorF29/Wireshark/assets/145622790/37149c1c-1e75-408e-92fc-6f43b474871f)
+<hr>
 
+![etho](https://github.com/victorF29/Wireshark/assets/145622790/37149c1c-1e75-408e-92fc-6f43b474871f)
+<hr>
+<strong>Analyzing captured packets:</strong>
+
+Once inside the network interface, a blank list will pop up where captured network packets can be found. This list begins to populate itself once Wireshark is able to capture any network packets that get recieved or sent out.
+<hr>
+
+![blank](https://github.com/victorF29/Wireshark/assets/145622790/ca2bf9e1-4154-4c26-a80c-2b0e53683222)
