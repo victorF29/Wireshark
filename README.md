@@ -3,7 +3,7 @@
 
 <h2>Introduction to Wireshark</h2>
 
-Wireshark is an essential tool used in the networking industr to analyze network protocols. It can be used to capture many different types of network traffic; often mainly used to troubleshoot problems in a network such as latency issues, detecting malicious traffic, observing network traffic, and much more. Wireshark is one of the most helpful tools when it comes to networking. Since it has a GUI it is fairly simple to learn and user friendly. With colors to distinguish between different types of traffic, Wireshark is very straightforward.
+Wireshark is an essential tool used in the networking industry to analyze network protocols. It can be used to capture many different types of network traffic; often mainly used to troubleshoot problems in a network such as latency issues, detecting malicious traffic, observing network traffic, and much more. Wireshark is one of the most helpful tools when it comes to networking. Since it has a GUI it is fairly simple to learn and user friendly. With colors to distinguish between different types of traffic, Wireshark is very straightforward.
 <hr>
 
 <h2>Observing ICMP echo request/reply packets with Wireshark</h2>
@@ -31,3 +31,18 @@ To begin populating Wireshark with packets, the ping command will be used to cap
 ![listofpacks](https://github.com/victorF29/Wireshark/assets/145622790/9f350bdf-b0f0-4879-8d20-1c654cfd22bc)
 <hr>
 
+At the top of Wireshark there is a search bar used to filter through packets. Typing in ICMP shows only packets that have ICMP protocol. The search feature can be used with much greater detail to be able to find more specific things. Clicking on an individual packet will bring up more information on that specific packet. The picture below shows the specific detail for the given packet clicked, this is shown at the bottom half of Wireshark. Shown at the bottom of the list are things such as host source and host destination, the byte size of the packets, what interface the packet was captured on, along with other details. Clicking on the drop down that says "Internet Control Message Protocol" shows even more detail about the packet such as the type of packet. In this case type 8 which means this is an echo ping request. As well as the time the packet was captured, and the integrity of the packet (checksum).
+<hr>
+
+![icmp](https://github.com/victorF29/Wireshark/assets/145622790/2960a4b1-35f6-4527-b2ee-33e62fe871a3)
+<hr>
+
+The screenshot provided shows an example of how it looks like when a host does not send a reply back. In this case the destination host does not exist.
+<hr>
+
+![down](https://github.com/victorF29/Wireshark/assets/145622790/4d8c37d1-71b4-46a7-a786-2cda77174563)
+<hr>
+
+<h2>Real life application</h2>
+
+This demonstration showed off the basics in how to use Wireshark, how to capture and analyze ICMP echo request/reply packets, as well as reading through some of the data of the packets. The concepts from the demonstration show how Wireshark can be used to gain more insight into network communication, how to capture packets on a network, and how to interpret packet data. Wireshark has many use cases from being able to diagnose problems in a network, to monitoring whats going on in a network, and overall having more insight as to whats going on in a network. 
