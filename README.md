@@ -23,3 +23,10 @@ Once inside the network interface, a blank list will pop up where captured netwo
 <hr>
 
 ![blank](https://github.com/victorF29/Wireshark/assets/145622790/ca2bf9e1-4154-4c26-a80c-2b0e53683222)
+<hr>
+
+To begin populating Wireshark with packets, the ping command will be used to capture packets sent between two hosts. For the most part the ping command is used to check whether or not a host is running. The source computer will send a request to the destination, and the destination will either reply or not reply depending on whether or not it is up. Once the list begins to populate, many different kinds of packets will start to show. Each different packet will show a different color depending on the protocol. 
+<hr>
+
+![listofpacks](https://github.com/victorF29/Wireshark/assets/145622790/9f350bdf-b0f0-4879-8d20-1c654cfd22bc)
+<hr>
