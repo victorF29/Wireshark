@@ -43,6 +43,6 @@ The screenshot provided shows an example of how it looks like when a host does n
 ![down](https://github.com/victorF29/Wireshark/assets/145622790/4d8c37d1-71b4-46a7-a786-2cda77174563)
 <hr>
 
-<h2>Real life application</h2>
+<h2>Concepts of this demonstration</h2>
 
 This demonstration showed off the basics in how to use Wireshark, how to capture and analyze ICMP echo request/reply packets, as well as reading through some of the packets data. The concepts from this demonstration show how Wireshark can be used to gain more insight into a networks communication, how to capture packets on a network, and how to interpret packet data. Wireshark has many use cases from being able to diagnose problems in a network, to monitoring whats going on in a network, and overall having more insight as to whats going on in a network. 
