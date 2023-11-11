@@ -8,7 +8,7 @@ Wireshark is an essential tool used in the networking industry to analyze networ
 
 <h2>Observing ICMP echo request/reply packets with Wireshark</h2>
 
-This demonstration will be going over how to analyze ICMP echo request and echo reply packets between two different hosts. The point of this demonstration is to show off how Wireshark works as well as show the basics of how to capture and analyze traffic between two seperate hosts.
+This demonstration will be going over how to analyze ICMP echo request and echo reply packets between two different hosts. The point of this demonstration is to help the user gain more insight into network communication.
 
 <strong>Opening Wireshark:</strong>
 
